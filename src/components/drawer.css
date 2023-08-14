@@ -1,0 +1,198 @@
+.header-body-2 {
+    height: 60px;
+    display: none;
+    padding-left: 5%;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-3-1 {
+    height: 55px;
+}
+
+.header-3-2 {
+    display: flex;
+}
+
+.header-3-2-1 {
+    margin: 0px 5px;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+#header-3-login-btn {
+    height: 100%;
+    color: #484848;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.header-3-2-1:hover {
+    background-color: #92298E;
+}
+
+#header-3-login-btn:hover {
+    color: white;
+}
+
+#box-body {
+    height: 100vh;
+    padding-top: 15px;
+    background-color: rgb(230, 230, 230);
+}
+
+.box-section {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: column;
+}
+
+#box-btn-2,
+#box-btn {
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+}
+
+#box-btn:hover {
+    color: white;
+    background-color: #92298E;
+}
+
+.box-btn-div {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .header-body-2 {
+        display: flex;
+    }
+}
+
+/* Dialog Box */
+
+.dialog-body {
+    padding: 0px 40px;
+}
+
+.dialog-1 {
+    font-size: 2rem;
+    color: #484848;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.dialog-2 {
+    display: flex;
+    background-color: rgb(225, 225, 225);
+}
+
+.dialog-2-1 {
+    width: 100%;
+    height: 40vh;
+    color: #484848;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dialog-2-1:hover {
+    color: #ffffff;
+    background-color: #5173bd;
+}
+
+.dialog-2-1-1 {
+    height: 60px;
+}
+
+.dialog-2-2 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.dialog-3 {
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+}
+
+#dialog-3-1 {
+    font-size: 1rem;
+    color: #484848;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+}
+
+#dialog-3-1:hover {
+    color: #ffffff;
+    background-color: #92298E;
+}
+
+@media (max-width: 700px) {
+    .dialog-body {
+        padding: 0px 30px;
+    }
+
+    .dialog-1 {
+        font-size: 1.6rem;
+        padding: 18px 0px;
+    }
+
+    .dialog-2 {
+        flex-direction: column;
+    }
+
+    .dialog-2-1 {
+        height: 25vh;
+    }
+
+    .dialog-2-1-1 {
+        height: 55px;
+    }
+
+    .dialog-2-2 {
+        font-size: 1.1rem;
+    }
+
+    .dialog-3 {
+        padding: 8px 8px 8px 0px;
+    }
+
+    #dialog-3-1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .dialog-body {
+        padding: 0px 15px;
+    }
+
+    .dialog-1 {
+        font-size: 1.2rem;
+        padding: 15px 0px;
+    }
+
+    .dialog-2-1-1 {
+        height: 50px;
+    }
+
+    .dialog-2-2 {
+        font-size: 1rem;
+    }
+
+    .dialog-3 {
+        padding: 6px 6px 6px 0px;
+    }
+
+    #dialog-3-1 {
+        font-size: 0.8rem;
+    }
+}

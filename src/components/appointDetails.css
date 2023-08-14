@@ -1,0 +1,169 @@
+.appo-body {
+    display: flex;
+    padding: 50px 10px;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Raleway';
+}
+
+.appo-section {
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    min-height: 550px;
+    border-radius: 20px;
+    padding: 20px 20px 15px 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.appo-1 {
+    width: 45%;
+}
+
+.appo-1-1 {
+    margin: 50px 0px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.appo-1-2 {
+    display: flex;
+    line-height: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.appo-1-2-head {
+    font-size: 1.1rem;
+}
+
+.appo-1-2-txt {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#appo-1-2-btn {
+    font-size: 1rem;
+    color: #484848;
+    text-transform: capitalize;
+}
+
+#appo-1-2-btn:hover {
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #92298E;
+}
+
+.appo-2 {
+    width: 55%;
+}
+
+.appo-2-1 {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.appo-2-2 {
+    display: flex;
+}
+
+#appo-2-2-1 {
+    width: 50%;
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+}
+
+#appo-2-2-2 {
+    width: 50%;
+    padding: 10px;
+    margin: 0px 0px 0px 5px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+}
+
+.appo-2-textfield {
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+}
+
+@media (max-width: 850px) {
+    .appo-section {
+        flex-direction: column;
+    }
+
+    .appo-1 {
+        width: 100%;
+    }
+
+    .appo-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .appo-section {
+        padding: 15px 15px 5px 15px;
+    }
+
+    .appo-1-1 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .appo-1-2-head {
+        font-size: 1rem;
+    }
+
+    .appo-1-2-txt {
+        font-size: 1.15rem;
+    }
+
+    #appo-1-2-btn {
+        font-size: 0.9rem;
+    }
+
+    .appo-2-1 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .appo-2-2 {
+        flex-direction: column;
+    }
+
+    #appo-2-2-1 {
+        width: auto;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #appo-2-2-2 {
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .appo-1-1 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .appo-1-2-head {
+        font-size: 0.9rem;
+    }
+
+    .appo-1-2-txt {
+        font-size: 1rem;
+    }
+
+    #appo-1-2-btn {
+        font-size: 0.8rem;
+    }
+}

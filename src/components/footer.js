@@ -24,7 +24,6 @@ function Footer() {
     const clock = require('./images/clock.png');
     const board = require('./images/board.png');
     const plane = require('./images/plane.png');
-    const mixpanel = require('./images/mixpanel.png');
 
     return (
         <>
@@ -313,18 +312,14 @@ function Footer() {
                 </div>
 
                 <div className='footer-3'>
-                    <div>
-                        <Link
-                            id='footer-3-link'
-                            to='https://mixpanel.com/f/partner'
-                        >
-                            <img
-                                alt=''
-                                src={mixpanel}
-                                id='footer-3-img'
-                            />
-                        </Link>
-                    </div>
+                    Developed by -&nbsp;
+                    <Link
+                        target='_blank'
+                        id='footer-3-link'
+                        to='https://yashhkumarrrr.netlify.app'
+                    >
+                        Yash
+                    </Link>
                 </div>
             </div>
 

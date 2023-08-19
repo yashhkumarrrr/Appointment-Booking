@@ -49,7 +49,7 @@ function SelectDate(props) {
                         </div>
 
                         <div className='date-1-2'>
-                            Please select a Date for appointment from the adjacent Calendar
+                            Please select a date for appointment from the adjacent calendar
                         </div>
 
                         <div className='date-1-3'>

@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as yup from 'yup';
 import './appointDetails.css';
 import { useFormik } from 'formik';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
@@ -38,7 +38,8 @@ const validationSchema = yup.object({
 });
 
 function AppointDetails(props) {
-    
+
+    const navigate = useNavigate();
 
     const formik = useFormik({
         initialValues: {
@@ -50,7 +51,7 @@ function AppointDetails(props) {
             remarks: '',
         },
         validationSchema: validationSchema,
-        onSubmit: () => {
+        onSubmit: (props) => {
             if ((props.appointTime === '**:**') && (props.appointDate !== '****-**-**')) {
                 setSnackBar('Select Appointment Time');
                 handleOpenSnackbar();
@@ -75,6 +76,8 @@ function AppointDetails(props) {
                     time: props.appointTime,
                 });
             }
+            alert('Appointment Book Successfully!');
+            navigate('/');
         },
     });
 

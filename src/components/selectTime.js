@@ -53,7 +53,7 @@ function SelectTime(props) {
                     <div className='time-1'>
                         <div className='time-1-1'>
                             <div className='time-1-1-1'>
-                                Select Time for Appointment on Date -
+                                Select Time for Appointment for date -
                             </div>
 
                             <div className='time-1-1-2'>

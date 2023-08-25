@@ -33,9 +33,9 @@ function DrawerApp() {
         setDialogOpen(false);
     };
 
-    const clock = require('./images/clock.png');
-    const board = require('./images/board.png');
-    const plane = require('./images/plane.png');
+    const clock = require('./images/clock.webp');
+    const board = require('./images/board.webp');
+    const plane = require('./images/plane.webp');
     const logo2 = require('./images/logo2.webp');
 
     return (

@@ -57,7 +57,8 @@
     justify-content: space-between;
 }
 
-#date-2-btn {
+#date-2-btn-1,
+#date-2-btn-2 {
     color: #484848;
     font-size: 1.1rem;
     border-radius: 8px;
@@ -65,7 +66,8 @@
     text-transform: capitalize;
 }
 
-#date-2-btn:hover {
+#date-2-btn-1:hover,
+#date-2-btn-2:hover {
     color: #ffffff;
     background-color: #92298E;
 }
@@ -113,7 +115,8 @@
         padding-top: 8px;
     }
 
-    #date-2-btn {
+    #date-2-btn-1,
+    #date-2-btn-2 {
         font-size: 1rem;
     }
 }
@@ -148,7 +151,8 @@
         padding-top: 6px;
     }
 
-    #date-2-btn {
+    #date-2-btn-1,
+    #date-2-btn-2 {
         font-size: 0.9rem;
     }
 }
@@ -183,7 +187,8 @@
         padding-top: 5px;
     }
 
-    #date-2-btn {
+    #date-2-btn-1,
+    #date-2-btn-2 {
         font-size: 0.8rem;
     }
 }

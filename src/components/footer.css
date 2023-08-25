@@ -34,7 +34,7 @@
     font-family: 'Raleway';
 }
 
-#footer-links {
+.footer-links {
     margin: 5px 0px;
     font-size: 16px;
     font-weight: 550;
@@ -43,23 +43,27 @@
     font-family: 'Raleway';
 }
 
-#footer-btn-icon {
+#footer-btn-icon-1,
+#footer-btn-icon-2,
+#footer-btn-icon-3 {
     padding: 3px;
 }
 
-#footer-btn-icon-1 {
+#footer-facebook-icon,
+#footer-twitter-icon,
+#footer-linkedin-icon {
     font-size: 35px;
 }
 
-#footer-btn-icon-2 {
+#footer-mail-icon-btn {
     padding: 2px;
 }
 
-#footer-btn-icon-3 {
+#footer-MailIcon {
     font-size: 30px;
 }
 
-#footer-links:hover {
+.footer-links:hover {
     color: white;
 }
 
@@ -111,7 +115,7 @@
 
 .footer-2 {
     display: flex;
-    padding: 13px;
+    padding: 10px;
     color: #999999;
     font-size: 13.6px;
     text-align: center;
@@ -129,6 +133,7 @@
 /* Container 3 */
 
 .footer-3 {
+    padding: 2px 0px;
     text-align: center;
     font-family: 'Poppins';
     background-color: rgb(240, 240, 255);
@@ -145,7 +150,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 330px) {
     .footer-3 {
         font-size: 0.8rem;
     }

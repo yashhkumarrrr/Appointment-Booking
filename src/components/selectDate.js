@@ -77,7 +77,7 @@ function SelectDate(props) {
                         <div className='date-2-2'>
                             <div>
                                 <Button
-                                    id='date-2-btn'
+                                    id='date-2-btn-1'
                                     onClick={handleClickNext}
                                 >
                                     Next
@@ -86,7 +86,7 @@ function SelectDate(props) {
 
                             <div>
                                 <Button
-                                    id='date-2-btn'
+                                    id='date-2-btn-2'
                                     onClick={props.clearDate}
                                 >
                                     Reset

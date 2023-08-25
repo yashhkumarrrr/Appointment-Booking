@@ -21,9 +21,9 @@ function Footer() {
         setDialogOpen(false);
     };
 
-    const clock = require('./images/clock.png');
-    const board = require('./images/board.png');
-    const plane = require('./images/plane.png');
+    const clock = require('./images/clock.webp');
+    const board = require('./images/board.webp');
+    const plane = require('./images/plane.webp');
 
     return (
         <>
@@ -34,7 +34,7 @@ function Footer() {
                             <div className='footer-heading-2'>Product</div>
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/'
                                 >
                                     Home
@@ -43,7 +43,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     onClick={handleDialogOpen}
                                 >
                                     Product Tour
@@ -52,7 +52,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/customers/'
                                 >
                                     Customers
@@ -61,7 +61,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/contactUs/'
                                 >
                                     Contact Us
@@ -70,7 +70,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://blog.appointy.com/?_gl=1*t9icar*_ga*MTM5NTgxNzM3My4xNjkwODU5MTUy*_ga_CWLJ11ZHBF*MTY5MDg4NTM4MS40LjEuMTY5MDg4NTM4NC41Ny4wLjA.&_ga=2.179532199.2079355036.1690859152-1395817373.1690859152'
                                 >
                                     Blog
@@ -79,7 +79,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/pricing/'
                                 >
                                     Pricing
@@ -88,7 +88,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://business.appointy.com/account/register/?RFP=FOOTER&_gl=1*t9icar*_ga*MTM5NTgxNzM3My4xNjkwODU5MTUy*_ga_CWLJ11ZHBF*MTY5MDg4NTM4MS40LjEuMTY5MDg4NTM4NC41Ny4wLjA.&_ga=2.179532199.2079355036.1690859152-1395817373.1690859152'
                                 >
                                     <b>Signup</b>
@@ -105,7 +105,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/online-appointment-scheduling-software/#schedule'
                                 >
                                     Schedule Online
@@ -114,7 +114,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/online-appointment-scheduling-software/#increaseProductivity'
                                 >
                                     Increase Productivity
@@ -123,7 +123,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/online-appointment-scheduling-software/#attract'
                                 >
                                     Attract Customers
@@ -132,7 +132,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/online-appointment-scheduling-software/#retainCustomer'
                                 >
                                     Retain Customers
@@ -152,7 +152,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://help.appointy.com/home?_ga=2.10637751.2079355036.1690859152-1395817373.1690859152'
                                 >
                                     Help
@@ -161,7 +161,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://selecttime.appointy.com/support?_ga=2.10637751.2079355036.1690859152-1395817373.1690859152'
                                 >
                                     Screen Sharing
@@ -170,7 +170,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://help.appointy.com/hc/en-us/articles/900001791683-Appointy-Affiliate-Program?itm_source=appointy_footer&itm_medium=link_affiliate_program_footer&itm_campaign=affiliate_program_website&itm_term=default&itm_content=default&_ga=2.10637751.2079355036.1690859152-1395817373.1690859152'
                                 >
                                     Affiliate Program
@@ -187,10 +187,11 @@ function Footer() {
                                         <Link to='https://www.facebook.com/appointy'>
                                             <IconButton
                                                 color='primary'
-                                                id='footer-btn-icon'
+                                                id='footer-btn-icon-1'
+                                                aria-label="Facebook Icon"
                                             >
                                                 <FacebookIcon
-                                                    id='footer-btn-icon-1'
+                                                    id='footer-facebook-icon'
                                                 />
                                             </IconButton>
                                         </Link>
@@ -202,10 +203,11 @@ function Footer() {
                                         >
                                             <IconButton
                                                 color='primary'
-                                                id='footer-btn-icon'
+                                                id='footer-btn-icon-2'
+                                                aria-label="Twitter Icon"
                                             >
                                                 <TwitterIcon
-                                                    id='footer-btn-icon-1'
+                                                    id='footer-twitter-icon'
                                                 />
                                             </IconButton>
                                         </Link>
@@ -217,10 +219,11 @@ function Footer() {
                                         >
                                             <IconButton
                                                 color='primary'
-                                                id='footer-btn-icon'
+                                                id='footer-btn-icon-3'
+                                                aria-label="LinkedIn Icon"
                                             >
                                                 <LinkedInIcon
-                                                    id='footer-btn-icon-1'
+                                                    id='footer-linkedin-icon'
                                                 />
                                             </IconButton>
                                         </Link>
@@ -238,7 +241,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/contactUs/'
                                 >
                                     <b>Appointy Software Inc.,</b><br />
@@ -250,15 +253,16 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='mailto:contact@appointy.com'
                                 >
                                     <IconButton
                                         color='primary'
-                                        id='footer-btn-icon-2'
+                                        aria-label="Mail Icon"
+                                        id='footer-mail-icon-btn'
                                     >
                                         <MailIcon
-                                            id='footer-btn-icon-3'
+                                            id='footer-MailIcon'
                                         />
                                     </IconButton>
                                     <span>
@@ -269,7 +273,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/privacypolicy/'
                                 >
                                     Privacy policy
@@ -278,7 +282,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/termsofuse/'
                                 >
                                     Terms of Use
@@ -287,7 +291,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/gdpr/'
                                 >
                                     GDPR
@@ -296,7 +300,7 @@ function Footer() {
 
                             <div>
                                 <Link
-                                    id='footer-links'
+                                    className='footer-links'
                                     to='https://www.appointy.com/enduseragreement/'
                                 >
                                     End User Agreement

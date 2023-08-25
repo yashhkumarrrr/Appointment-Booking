@@ -16,9 +16,9 @@ function Header() {
         setDialogOpen(false);
     };
 
-    const clock = require('./images/clock.png');
-    const board = require('./images/board.png');
-    const plane = require('./images/plane.png');
+    const clock = require('./images/clock.webp');
+    const board = require('./images/board.webp');
+    const plane = require('./images/plane.webp');
     const logo1 = require('./images/logo1.webp');
     const logo2 = require('./images/logo2.webp');
 
@@ -31,7 +31,7 @@ function Header() {
                         to='https://www.appointy.com/'
                     >
                         <img
-                            alt=''
+                            alt='logo1'
                             src={logo1}
                             id='header-1-1'
                         />
@@ -42,7 +42,7 @@ function Header() {
                         to='https://www.appointy.com/'
                     >
                         <img
-                            alt=''
+                            alt='logo2'
                             src={logo2}
                             id='header-1-2'
                         />
@@ -55,7 +55,7 @@ function Header() {
                             to='https://www.appointy.com/'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-1'
                             >
                                 Home
                             </Button>
@@ -67,7 +67,7 @@ function Header() {
                             onClick={handleDialogOpen}
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-2'
                             >
                                 Product Tour
                             </Button>
@@ -79,7 +79,7 @@ function Header() {
                             to='https://www.appointy.com/customers/'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-3'
                             >
                                 Customers
                             </Button>
@@ -91,7 +91,7 @@ function Header() {
                             to='https://www.appointy.com/contactUs/'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-4'
                             >
                                 Contact Us
                             </Button>
@@ -103,7 +103,7 @@ function Header() {
                             to='https://www.appointy.com/enterprise-appointment-scheduling-software/'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-5'
                             >
                                 Enterprise
                             </Button>
@@ -115,7 +115,7 @@ function Header() {
                             to='https://www.appointy.com/pricing/'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-6'
 
                             >
                                 Pricing
@@ -128,7 +128,7 @@ function Header() {
                             to='https://business.appointy.com/account/register/?RFP=NAV&_gl=1*sna5ke*_ga*MTM5NTgxNzM3My4xNjkwODU5MTUy*_ga_CWLJ11ZHBF*MTY5MDg4MDc2OC4zLjEuMTY5MDg4MjIzMy41Ni4wLjA.&_ga=2.110770438.2079355036.1690859152-1395817373.1690859152'
                         >
                             <Button
-                                id='header-2-btn-2'
+                                id='header-2-btn-signup'
                                 variant='contained'
                             >
                                 Signup
@@ -141,7 +141,7 @@ function Header() {
                             to='https://auth.appointy.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DmvcHybridTester%26redirect_uri%3Dhttps%253A%252F%252Fbusiness.appointy.com%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520adminApi%26response_mode%3Dform_post%26nonce%3D638264790605283519.ZWYyNTNiOTMtMTk2Yi00ZWIxLTllYTAtOTljNGE2ZmZmZDZhMjgyYTYxZjctZjE0Zi00MGZiLTgxYTAtOWYzODVlNzZlMjA5%26state%3DCfDJ8JQRdMzaFNtMsqi6jJqVdjk1-NZ_5g1juwhyoA6KDEsn35qJq4q4YbXZkgOwaGJcLPbzfUcI4zhKPHWOd-k1ah0de5fXTxQweXS_9URajqL0ZynQwEP5P2sibLFlpYA8e9D4b-ArPi4rwHpLdt2AJ7T4UtNrKSoASkMWw3m5YBO0Ax_YtmaydPN7PTcYT8wJYb5fJiSgBdxF7pqdKufarxQbrRwalUqdWueoPdS_TlqkL_n0kCYv7Y_JGAgxys-P6fQEmODjaZQnKwQbvmMNBiu5UtdxjzVZj0kq2S_j5rYAWXiYDjcfz266WNkBbHop07XWfO8fHWK-vx5PRdpH-6ntaVvOmWipazroHpE6QQsu0p_uRFcObcPXxoNvphQIgbsr3fuc5dfw5Qej-yiITKVwB9-L6zBEJPRTnokN5CyHQGq-YHhakT5OJEtr3LWiPZmhT-R1KWC6S8lFylfzLyB3CF0akvFRCVv65ZihTmTcBj5-YwUlMvZ2rlJD5T4ATex8AKSAOVfzvO57jNXCYqKFjmjFTHQXGkOC8rFnP0xSitzc5z-EYAei972cLu-z5A%26x-client-SKU%3DID_NET%26x-client-ver%3D2.1.4.0'
                         >
                             <Button
-                                id='header-2-btn'
+                                id='header-2-btn-7'
                             >
                                 Login
                             </Button>

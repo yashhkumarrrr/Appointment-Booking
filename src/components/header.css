@@ -23,7 +23,13 @@
     display: flex;
 }
 
-#header-2-btn {
+#header-2-btn-1,
+#header-2-btn-2,
+#header-2-btn-3,
+#header-2-btn-4,
+#header-2-btn-5,
+#header-2-btn-6,
+#header-2-btn-7 {
     margin: 0px 5px;
     font-size: 16px;
     font-weight: 400;
@@ -33,7 +39,7 @@
     text-transform: capitalize;
 }
 
-#header-2-btn-2 {
+#header-2-btn-signup {
     margin: 0px 5px;
     font-size: 16px;
     border-radius: 8px;
@@ -41,7 +47,13 @@
     background-color: #0F893D;
 }
 
-#header-2-btn:hover {
+#header-2-btn-1:hover,
+#header-2-btn-2:hover,
+#header-2-btn-3:hover,
+#header-2-btn-4:hover,
+#header-2-btn-5:hover,
+#header-2-btn-6:hover,
+#header-2-btn-7:hover {
     background-color: #92298E;
     color: #ffffff;
 }

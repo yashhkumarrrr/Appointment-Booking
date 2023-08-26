@@ -66,10 +66,11 @@ function SelectDate(props) {
                                 dateClick={props.toggleDate}
                                 titleFormat={{ year: 'numeric', month: 'short' }}
                                 plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+                                dayNamesShort={['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']}
                                 headerToolbar={{
                                     start: 'title',
                                     center: '',
-                                    end: 'prev,next'
+                                    end: 'prev next'
                                 }}
                             />
                         </div>

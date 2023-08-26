@@ -134,7 +134,7 @@ function AppointDetails(props) {
                                         to='/'
                                     >
                                         <Button
-                                            id='appo-1-2-btn'
+                                            id='appo-1-2-btn-1'
                                         >
                                             Change Date
                                         </Button>
@@ -155,7 +155,7 @@ function AppointDetails(props) {
                                     to='/chooseTimeSlot'
                                 >
                                     <Button
-                                        id='appo-1-2-btn'
+                                        id='appo-1-2-btn-2'
                                     >
                                         Change Time
                                     </Button>
@@ -284,7 +284,7 @@ function AppointDetails(props) {
                             <div>
                                 <Button
                                     type='submit'
-                                    id='appo-1-2-btn'
+                                    id='appo-1-2-btn-3'
                                 >
                                     Submit
                                 </Button>

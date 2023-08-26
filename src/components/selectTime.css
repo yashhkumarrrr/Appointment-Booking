@@ -94,7 +94,18 @@
     justify-content: space-around;
 }
 
-#time-2-1-1-chip {
+#time-2-1-1-chip-1,
+#time-2-1-1-chip-2,
+#time-2-1-1-chip-3,
+#time-2-1-1-chip-4,
+#time-2-1-1-chip-5,
+#time-2-1-1-chip-6,
+#time-2-1-1-chip-7,
+#time-2-1-1-chip-8,
+#time-2-1-1-chip-9,
+#time-2-1-1-chip-10,
+#time-2-1-1-chip-11,
+#time-2-1-1-chip-12 {
     font-size: 1rem;
 }
 
@@ -104,14 +115,16 @@
     justify-content: space-between;
 }
 
-#time-2-2-btn {
+#time-2-2-btn-1,
+#time-2-2-btn-2 {
     font-size: 1rem;
     color: #484848;
     border-radius: 8px;
     text-transform: capitalize;
 }
 
-#time-2-2-btn:hover {
+#time-2-2-btn-1:hover,
+#time-2-2-btn-2:hover {
     color: #ffffff;
     background-color: #92298E;
 }
@@ -182,7 +195,8 @@
         font-size: 0.9rem;
     }
 
-    #time-2-2-btn {
+    #time-2-2-btn-1,
+    #time-2-2-btn-2 {
         font-size: 0.9rem;
     }
 }

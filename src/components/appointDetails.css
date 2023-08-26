@@ -42,13 +42,17 @@
     font-size: 1.3rem;
 }
 
-#appo-1-2-btn {
+#appo-1-2-btn-1,
+#appo-1-2-btn-2,
+#appo-1-2-btn-3 {
     font-size: 1rem;
     color: #484848;
     text-transform: capitalize;
 }
 
-#appo-1-2-btn:hover {
+#appo-1-2-btn-1:hover,
+#appo-1-2-btn-2:hover,
+#appo-1-2-btn-3:hover {
     color: #ffffff;
     border-radius: 8px;
     background-color: #92298E;
@@ -124,7 +128,9 @@
         font-size: 1.15rem;
     }
 
-    #appo-1-2-btn {
+    #appo-1-2-btn-1,
+    #appo-1-2-btn-2,
+    #appo-1-2-btn-3 {
         font-size: 0.9rem;
     }
 
@@ -163,7 +169,9 @@
         font-size: 1rem;
     }
 
-    #appo-1-2-btn {
+    #appo-1-2-btn-1,
+    #appo-1-2-btn-2,
+    #appo-1-2-btn-3 {
         font-size: 0.8rem;
     }
 }

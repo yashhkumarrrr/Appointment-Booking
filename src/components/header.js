@@ -27,8 +27,8 @@ function Header() {
             <div className='header-body-1'>
                 <div className='header-1'>
                     <Link
-                        target='_blank'
                         to='https://www.appointy.com/'
+                        aria-label="Appointy Home Page"
                     >
                         <img
                             alt='logo1'
@@ -38,8 +38,8 @@ function Header() {
                     </Link>
 
                     <Link
-                        target='_blank'
                         to='https://www.appointy.com/'
+                        aria-label="Appointy Home Page"
                     >
                         <img
                             alt='logo2'

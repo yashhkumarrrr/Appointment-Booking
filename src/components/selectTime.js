@@ -101,7 +101,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="10:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-1'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -109,7 +109,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="09:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-2'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -117,7 +117,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="10:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-3'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -125,7 +125,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="11:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-4'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -141,7 +141,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="12:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-5'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -149,7 +149,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="13:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-6'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -157,7 +157,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="14:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-7'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -165,7 +165,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="15:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-8'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -181,7 +181,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="16:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-9'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -189,7 +189,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="17:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-10'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -197,7 +197,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="18:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-11'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -205,7 +205,7 @@ function SelectTime(props) {
                                     <div>
                                         <Chip
                                             label="19:00"
-                                            id='time-2-1-1-chip'
+                                            id='time-2-1-1-chip-12'
                                             onClick={props.toggleTime}
                                         />
                                     </div>
@@ -216,7 +216,7 @@ function SelectTime(props) {
                         <div className='time-2-2'>
                             <div>
                                 <Button
-                                    id='time-2-2-btn'
+                                    id='time-2-2-btn-1'
                                     onClick={handleClickNext}
                                 >
                                     Next
@@ -225,7 +225,7 @@ function SelectTime(props) {
 
                             <div>
                                 <Button
-                                    id='time-2-2-btn'
+                                    id='time-2-2-btn-2'
                                     onClick={props.clearTime}
                                 >
                                     Reset

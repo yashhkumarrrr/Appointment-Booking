@@ -2,7 +2,6 @@ import './App.css';
 import { useState } from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
-import DrawerApp from './components/drawer'
 import SelectTime from './components/selectTime';
 import SelectDate from './components/selectDate';
 import AppointDetails from './components/appointDetails';
@@ -33,7 +32,6 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <DrawerApp />
         <Routes>
           <Route path='/' element={<SelectDate appointDate={appointDate} toggleDate={toggleDate} clearDate={clearDate} />} />
           <Route path='/chooseTimeSlot' element={<SelectTime appointDate={appointDate} appointTime={appointTime} toggleTime={toggleTime} clearTime={clearTime} />} />

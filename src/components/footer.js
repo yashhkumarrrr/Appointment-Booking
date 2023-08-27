@@ -1,8 +1,5 @@
 import './footer.css';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
 import MailIcon from '@mui/icons-material/Mail';
 import IconButton from '@mui/material/IconButton';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -10,20 +7,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer() {
-
-    const [dialogOpen, setDialogOpen] = useState(false);
-
-    const handleDialogOpen = () => {
-        setDialogOpen(true);
-    };
-
-    const handleDialogClose = () => {
-        setDialogOpen(false);
-    };
-
-    const clock = require('./images/clock.webp');
-    const board = require('./images/board.webp');
-    const plane = require('./images/plane.webp');
 
     return (
         <>
@@ -38,15 +21,6 @@ function Footer() {
                                     to='https://www.appointy.com/'
                                 >
                                     Home
-                                </Link>
-                            </div>
-
-                            <div>
-                                <Link
-                                    className='footer-links'
-                                    onClick={handleDialogOpen}
-                                >
-                                    Product Tour
                                 </Link>
                             </div>
 
@@ -138,14 +112,11 @@ function Footer() {
                                     Retain Customers
                                 </Link>
                             </div>
-
                         </div>
                     </div>
 
                     <div className='footer-1-2'>
-
                         <div className='footer-1-2-1'>
-
                             <div className='footer-heading-2'>
                                 Support
                             </div>
@@ -314,93 +285,7 @@ function Footer() {
                     <div>Copyright 2018 &copy; Appointy.</div>
                     <div>All rights reserved.</div>
                 </div>
-
-                <div className='footer-3'>
-                    Developed by -&nbsp;
-                    <Link
-                        target='_blank'
-                        id='footer-3-link'
-                        to='https://yashhkumarrrr.netlify.app'
-                    >
-                        Yash
-                    </Link>
-                </div>
             </div>
-
-            <Dialog
-                maxWidth='xl'
-                open={dialogOpen}
-                onClose={handleDialogClose}
-            >
-                <div className='dialog-body'>
-                    <div className='dialog-1'>
-                        What are you Looking to Schedule?
-                    </div>
-
-                    <div className='dialog-2'>
-                        <Link
-                            className='dialog-2-1'
-                            to='https://www.appointy.com/online-appointment-scheduling-software/'
-                        >
-                            <div>
-                                <img
-                                    alt=''
-                                    src={clock}
-                                    className='dialog-2-1-1'
-                                />
-                            </div>
-
-                            <div className='dialog-2-2'>
-                                Appointments and Resources
-                            </div>
-                        </Link>
-
-
-                        <Link
-                            className='dialog-2-1'
-                            to='https://www.appointy.com/online-class-scheduling-software/'
-                        >
-                            <div>
-                                <img
-                                    alt=''
-                                    src={board}
-                                    className='dialog-2-1-1'
-                                />
-                            </div>
-
-                            <div className='dialog-2-2'>
-                                Classes, Workshops and Events
-                            </div>
-                        </Link>
-
-                        <Link
-                            className='dialog-2-1'
-                            to='https://www.appointy.com/online-activity-scheduling-software/'
-                        >
-                            <div>
-                                <img
-                                    alt=''
-                                    src={plane}
-                                    className='dialog-2-1-1'
-                                />
-                            </div>
-
-                            <div className='dialog-2-2'>
-                                Tour, Rides and Activities
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div className='dialog-3'>
-                        <Button
-                            id='dialog-3-1'
-                            onClick={handleDialogClose}
-                        >
-                            Close
-                        </Button>
-                    </div>
-                </div>
-            </Dialog>
         </>
     )
 }

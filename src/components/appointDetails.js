@@ -86,18 +86,18 @@ function AppointDetails(props) {
                 fontSize: '1rem',
                 color: '#484848',
                 fontFamily: 'Raleway',
-                '@media (max-width: 550px)': {
+                '@media (max-width: 500px)': {
                     fontSize: '0.9rem',
                 },
-                '@media (max-width: 450px)': {
+                '@media (max-width: 330px)': {
                     fontSize: '0.8rem',
                 },
             }
         },
     });
 
-    const [openSnackbar, setOpenSnackbar] = useState(false);
     const [snackBar, setSnackBar] = useState('');
+    const [openSnackbar, setOpenSnackbar] = useState(false);
 
     const handleOpenSnackbar = () => {
         setOpenSnackbar(true);
